@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Test Page</title>
+	</head>
+	<body>
+		<div>
+			<h2>图片的alt属性展示</h2>
+			<img src="images/李白.jpeg" alt="十步杀一人，千里不留行。根据提示猜图" width="300" height="300">
+			<img src="images/李白.jpe" alt="十步杀一人，千里不留行。根据提示猜图" width="300" height="300">
+		</div>
+
+		<div>
+			<h2>superscript&subscript</h2>
+			<p>On the 4<sub>th</sub> of September, you will learn about E=MC<sup>2</sup>.</p>	
+		</div>		
+			
+		<div>
+			<h2>white space collapsing</h2>
+			<p>The moon is dritfing away from earth.</p>
+			<p>The moon                 is dritfing away from earth.</p>
+			<p>The moon is dritfing away from 
+			
+			earth.</p>
+			
+		</div>		
+	
+		<div>
+			<h2>line breaks & herizontal rules</h2>
+			<p>I <br /> love you.</p>
+			<hr />
+			<p>Now you see another paragraph.</p>
+		</div>
+
+		<div>
+			<h2>&ltb&gt和&ltstrong&gt以及&lti&gt和&ltem&gt的区别</h2>
+			<p>
+				1.b 和 i 要素是视觉要素（presentationl elements）。<br>
+				2.em 和 strong 是表达要素(phrase elements)。在搜索引擎中更受重视，一些语音阅读器也会根据它在阅读时加强语气。
+				另外所有的表现元素其实都是不推荐使用的，应该使用css来代替。
+
+				<!--本文将详细的为你讲解HTML中<i>、<em>、<b>、<strong>的区别。
+					<i> 标签呈现斜体的文本。
+					<em>把文本定义为斜体强调的内容。
+					<b> 标签定义粗体的文本。
+					<strong>把文本定义为粗体语气更强的强调的内容。
+					在浏览器中，<i>和<em> 默认用斜体表示，<b>和<strong>用粗体表示。
+					<b>和<i> 标签定义与文本中其余部分不同的部分，并把这部分文本呈现为斜体文本。<b>和<strong>用来强调文本，并把这部分文本呈现为粗体文本。
+					<em>用来局部强调，<strong>则是全局强调。从视觉上考虑，<em>的强调是有顺序的，阅读到某处时，才会注意到。
+					<strong>的强调则是一种随意无顺序的，看见某文时，立刻就凸显出来的关键词句。
+					斜体和粗体刚好满足了这两种视觉效果，因此也就成了<em>和<strong>的默认样式。
+					<em>表示内容的着重点（stress emphasis），<strong>表示内容的重要性（strong importance）<strong>不会改变所在句子的语意，em 则会改变所在句子的语义。
+					<em>是句意强调，加与不加会引起语义变化。<strong>是重要性强调，和局部还是全局无关，局部强调用<strong>也可以，<strong>强调的是重要性，不会改变句意。
+					<b>和<i> 仅用来使文本呈现粗体和斜体，区别其它文本，不会产生任何语义的变化。-->
+
+			</p>
+
+			
+		</div>
+
+		<div>
+			<h2>quotations</h2>
+			<blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+				<p>Did you ever stop to think, and forget to start again?</p>
+			</blockquote>
+
+			<p>
+				<q>That's the problem.</q>
+			</p>
+		</div>
+
+		<div>
+			<h2>abbreviation&acronyms(in HTML5, only use &ltabbr&gt)</h2>
+			<p>
+				<abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.
+			</p>
+			<p><acronym title="National Aeronautics and Space Administration">NASA</acronym> do some crazy space stuff.</p>
+		</div>
+
+		<div>
+			<h2>citations & definitions</h2>
+			<p><cite>A Brief History of Time</cite> is an interesting book.</p>
+			<p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+		</div>
+
+		<div>
+			<address>
+				<p><a href="johnxu2010cd@gmail.com">
+					johnxu2010cd@gmail.com
+				</a></p>
+			</address>
+
+			<p>It was the <del>worst</del> <ins>best</ins> idea she had ever had.</p>
+			
+			<p>Laptop computer:</p>
+			<p><s>Was $995</s></p>
+			<p>Now only $375</p>
+		</div>
+	</body>
+</html>
